@@ -1,0 +1,51 @@
+@import '/src/variables.css';
+
+.messageBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-self: center;
+    width: 60%;
+
+    background-color: #f7f7f7;
+}
+
+.message {
+    padding: 15px;
+}
+
+.user {
+    align-self: flex-end;
+    border-radius: 20px;
+
+    background-color: #d6d6d6;
+}
+
+.response {
+    display: flex;
+    overflow-y: auto;
+    gap: 0 35px;
+    background-color: #d3d3d3;
+}
+
+.response .content {
+    margin: 0;
+}
+
+.response img {
+    width: 25px;
+    height: 25px;
+    margin-left: -60px;
+}
+
+.response ul {
+    list-style: none;
+}
+
+.response li {
+}
+
+.response hr {
+    color: var(--color-emph);
+    border: 1px solid;
+}

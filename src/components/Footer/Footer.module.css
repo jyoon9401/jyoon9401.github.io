@@ -1,0 +1,9 @@
+@import '/src/variables.css';
+
+.footer {
+    border-radius: 30px;
+    justify-self: center;
+    width: 60%;
+    margin-bottom: 50px;
+    background-color: var(--color-box);
+}

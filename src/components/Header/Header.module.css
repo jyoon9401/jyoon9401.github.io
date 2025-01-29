@@ -1,0 +1,26 @@
+@import '/src/variables.css';
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebarBtn {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin: 15px;
+    visibility: hidden;
+}
+
+.sidebarBtnClosed {
+    visibility: visible;
+}
+
+.header a {
+    color: var(--color-title);
+    font-size: 20px;
+    font-weight: 450;
+    text-decoration: none;
+    margin: 12px 0;
+}
