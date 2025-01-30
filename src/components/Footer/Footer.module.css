@@ -1,9 +1,32 @@
 @import '/src/variables.css';
 
 .footer {
+    display: grid;
+    background-color: var(--color-box);
     border-radius: 30px;
     justify-self: center;
-    width: 60%;
+    width: 750px;
     margin-bottom: 50px;
-    background-color: var(--color-box);
+}
+
+input {
+    font-size: var(--size-text);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 15px;
+}
+
+.footerLinks {
+    margin-left: 10px;
+}
+
+.footerLinks img {
+    width: 22px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footerLinks img:hover {
+    background-color: var(--color-emph);
 }
