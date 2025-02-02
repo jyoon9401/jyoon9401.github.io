@@ -24,3 +24,6 @@
     text-decoration: none;
     margin: 12px 0;
 }
+
+@media screen and (min-width: 1150px) {
+}

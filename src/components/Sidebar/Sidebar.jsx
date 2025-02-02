@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import styles from './Sidebar.module.css'
 import sidebarIcon from '/src/assets/sidebar/sidebar.png'
@@ -9,6 +9,17 @@ export const Sidebar = () => {
 
     const [sidebarClosed, setSidebarClosed] = useSidebarContext();
     const location = useLocation();
+
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            if (window.innerWidth < 1150) {
+                setSidebarClosed(true);
+            }
+            else {
+                setSidebarClosed(false);
+            }
+        });
+    })
 
     return (
         <nav className={`${styles.sidebar} ${sidebarClosed && styles.closed}`}>
