@@ -1,13 +1,12 @@
 :root {
     --color-text: #000000;
-    --color-box: #f0f0f0;
+    --color-box: #f5f5f5;
     --color-emph: #e4e4e4;
-    --color-title: #808080;
+    --color-active: #d8d8d8;
+    --color-title: #818181;
+    --color-link: rgb(65, 155, 235);
 
     --size-text: 1rem;
     --size-small: 0.8rem; 
-}
-
-.messageBox {
-    background-color: #ebebeb;
+    --size-title: 2rem;
 }

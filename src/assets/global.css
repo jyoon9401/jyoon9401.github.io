@@ -1,5 +1,12 @@
 @import '/src/variables.css';
 
+
+.pageLayout {
+    display: grid;
+    grid-template-rows: 50px auto 150px;
+    width: 100%;
+}
+
 .messageBox {
     display: flex;
     flex-direction: column;
@@ -7,8 +14,11 @@
     justify-self: center;
     width: 800px;
     overflow-y: auto;
+    margin-left: -50px;
+}
 
-    background-color: #f7f7f7;
+.messageBox::-webkit-scrollbar {
+    display: none;
 }
 
 .message {
@@ -24,11 +34,15 @@
 .response {
     display: flex;
     gap: 0 35px;
-    background-color: #d3d3d3;
 }
 
 .response .content {
-    margin: 0;
+    width: 100%;
+}
+
+.response .content a {
+    color: var(--color-link);
+    text-decoration: none;
 }
 
 .response img {
@@ -36,16 +50,29 @@
     height: 25px;
 }
 
-.response ul {
-    list-style: none;
+.response h4 {
+    margin-bottom: 15px;
 }
 
-.response li {
+.response ul {
+    line-height: 40px;
+}
+
+.response small {
+    position: relative;
+    color: var(--color-title);
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .response hr {
     color: var(--color-emph);
     border: 1px solid;
+    margin: 30px 0;
+}
+
+.delay {
+    visibility: hidden;
 }
 
 @media screen {

@@ -11,9 +11,9 @@ export const Footer = () => {
         <div className={styles.footer}>
             <input type='text' placeholder='Enter message ...'/>
             <div className={styles.footerLinks}>
-                <a href=''><img src={mailIcon} /></a>
-                <a href=''><img src={linkedinIcon} /></a>
-                <a href=''><img src={githubIcon} /></a>
+                <a href='mailto:jyoon9401@gmail.com'><img src={mailIcon} alt='Email'/></a>
+                <a href='https://www.linkedin.com/in/jennifer-jy-yoon/' target='_blank'><img src={linkedinIcon} alt='LinkedIn' /></a>
+                <a href='https://github.com/jyoon9401' target='_blank'><img src={githubIcon} alt='Github' /></a>
             </div>        
         </div>
     )

@@ -37,6 +37,10 @@
     background-color: var(--color-emph);
 }
 
+.activePage {
+    background-color: var(--color-active);
+}
+
 .sidebarItems small {
     font-size: var(--size-small);
     font-weight: 600;
@@ -48,6 +52,7 @@
     min-width: 0;
     visibility: hidden;
 }
+
 
 @media screen and (max-width: 850px) {
 

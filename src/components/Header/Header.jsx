@@ -13,8 +13,9 @@ export const Header = () => {
                 className={`${styles.sidebarBtn} ${sidebarClosed && styles.sidebarBtnClosed}`}
                 src={sidebarIcon}
                 onClick={() => setSidebarClosed(false)}
+                alt='Sidebar icon'
             />
-            <a href="#home">Jennifer-Yoon</a>
+            <a href='/'>Jennifer-Yoon</a>
         </header>
     )
 }
