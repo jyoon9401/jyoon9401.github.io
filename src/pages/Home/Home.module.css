@@ -5,8 +5,10 @@
 }
 
 .homePage {
-    align-content: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -18,7 +20,6 @@
 .contentCards {
     display: grid;
     grid-template-columns: 50% 50%;
-    justify-content: center;
     width: 40%;
     gap: 30px;
     margin: 50px;
