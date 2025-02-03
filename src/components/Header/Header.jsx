@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from './Header.module.css'
 import sidebarIcon from '/src/assets/sidebar/sidebar.png'
 import { useSidebarContext } from '../SidebarContext/SidebarContext';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
 
@@ -21,14 +22,13 @@ export const Header = () => {
 
     return (
         <header className={styles.header}>
-            {console.log(sidebarClosed)}
             <img
                 className={`${styles.sidebarBtn} ${sidebarClosed && styles.sidebarBtnClosed}`}
                 src={sidebarIcon}
                 onClick={() => setSidebarClosed(false)}
                 alt='Sidebar icon'
             />
-            <a href='/'>Jennifer-Yoon</a>
+            <Link to='/'>Jennifer-Yoon</Link>
         </header>
     )
 }

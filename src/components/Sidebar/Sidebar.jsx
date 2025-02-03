@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import styles from './Sidebar.module.css'
 import sidebarIcon from '/src/assets/sidebar/sidebar.png'
 import { useSidebarContext } from '../SidebarContext/SidebarContext'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export const Sidebar = () => {
 
@@ -32,16 +32,16 @@ export const Sidebar = () => {
             <ul className={styles.sidebarItems}>
                 <li>
                     <small>About</small>
-                    <a href='/about' className={location.pathname === '/about' ? styles.activePage : ''}>About Me</a>
+                    <Link to='/about' className={location.pathname === '/about' ? styles.activePage : ''}>About Me</Link>
                 </li>
                 <li>
                     <small>Work</small>
-                    <a href='/experience' className={location.pathname === '/experience' ? styles.activePage : ''}>Experience</a>
-                    <a href='/skills' className={location.pathname === '/skills' ? styles.activePage : ''}>Skills</a>
+                    <Link to='/experience' className={location.pathname === '/experience' ? styles.activePage : ''}>Experience</Link>
+                    <Link to='/skills' className={location.pathname === '/skills' ? styles.activePage : ''}>Skills</Link>
                 </li>
                 <li>
                     <small>Contact</small>
-                    <a href='/contact' className={location.pathname === '/contact' ? styles.activePage : ''}>Get In Touch</a>
+                    <Link to='/contact' className={location.pathname === '/contact' ? styles.activePage : ''}>Get In Touch</Link>
                 </li>
             </ul>
         </nav>
