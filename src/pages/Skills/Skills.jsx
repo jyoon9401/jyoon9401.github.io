@@ -19,7 +19,7 @@ export const Skills = () => {
                             <hr></hr>
                             <h4>Front-End Skills</h4>
                             <ul>
-                                <li><b>Languages: </b>Javascript, HTML/CSS</li>
+                                <li><b>Languages: </b>JavaScript, HTML/CSS</li>
                                 <li><b>Libraries/Frameworks: </b>React, Angular, Next.js</li>
                             </ul>
                             <hr></hr>
@@ -34,7 +34,7 @@ export const Skills = () => {
                             <h4>Machine Learning Skills</h4>
                             <ul>
                                 <li><b>Languages: </b>Python, R</li>
-                                <li><b>Libraries/Frameworks: </b>Tensorflow, Pyrotch, Keras, OpenCV</li>
+                                <li><b>Libraries/Frameworks: </b>Tensorflow, PyTorch, Keras, OpenCV</li>
                             </ul>
                             <hr></hr>
                             <h4>Other Skills</h4>

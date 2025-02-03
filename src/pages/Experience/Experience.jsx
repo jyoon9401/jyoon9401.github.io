@@ -28,13 +28,13 @@ export const Experience = () => {
                             <h4>2. Software Developer Intern @ J.D. Power</h4>
                             <small>May 2022 - Aug. 2023</small>
                             <ul>
-                                <li>I built a web application using <b>React, Next.js,</b> and <b>Material UI</b> to create a dynamic UI for managing the company's databases. This allowed
+                                <li>I built a web application using <b>React, Next.js,</b> and <b>Material UI</b> to create a dynamic interface for managing the company's databases. This allowed
                                 employees to interact with complex data without requiring coding knowledge, improving overall accessibility and efficiency.</li>
                                 <li>On the backend, I designed and integrated <b>RESTful APIs</b> using <b>Spring Boot</b> to streamline CRUD operations on <b>MySQL</b> and <b>PostgreSQL </b>
                                 databases.</li>
-                                <li>I automated error reporting for <b>Spring Batch ETL pipelines</b> and built a real-time monitoring UI using Javascript, which reduced troubleshooting time
+                                <li>I automated error reporting for <b>Spring Batch ETL pipelines</b> and built a real-time monitoring UI using JavaScript, which reduced troubleshooting time
                                 by 80%.</li>
-                                <li>I used <b>Docker</b> to containerize applications, standardizing deployements across development, production, and QA environments and streamlining CI/CD workflow.</li>
+                                <li>I used <b>Docker</b> to containerize applications, standardizing deployments across development, production, and QA environments and streamlining CI/CD workflow.</li>
                             </ul>
                             <hr></hr>
                             <h4>3. Executive Member @ Western University Korean Students’ Association</h4>
