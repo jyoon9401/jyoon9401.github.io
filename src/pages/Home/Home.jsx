@@ -7,6 +7,7 @@ import workIcon from '/src/assets/home/suitcase.png'
 import skillsIcon from '/src/assets/home/wand.png'
 import contactIcon from '/src/assets/home/phone.png'
 import Typist from 'react-typist-component'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
 
@@ -28,12 +29,12 @@ export const Home = () => {
                 </div>
                 <section className={styles.contentCards}>
                     {cardItems.map((item) => (
-                        <a href={item.path}>
+                        <Link to={item.path}>
                             <div className={styles.card}>
                                 <img src={item.icon}/>
                                 <body>{item.text}</body>
                             </div>
-                        </a>
+                        </Link>
                     ))}
 
                 </section>
