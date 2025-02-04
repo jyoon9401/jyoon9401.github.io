@@ -22,7 +22,7 @@ export const Contact = () => {
                     <Typist typingDelay={0} startDelay={500}>
                     <img src={mainIcon}/>
                         <div className='content'>
-                            <body>You can view my resume <a href=''>here </a> for a more detailed overview of my experience, skills, and projects.</body>
+                            <body>You can view my resume <a href='https://drive.google.com/file/d/1H3NDy8i3HYEHhHNVGn6HIIzN4-EIn9T0/view?usp=sharing' target='_blank'>here </a> for a more detailed overview of my experience, skills, and projects.</body>
                         </div>
                     </Typist>
                 </div>
